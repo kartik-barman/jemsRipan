@@ -101,8 +101,8 @@ img {
 
 .btn {
     display: inline-block;
-    background-color: var(--primary);
-    color: var(--black);
+    background-color: red;
+    color: var(--white);
     padding: 0.5rem 2rem;
     border: 1px solid transparent;
     border-radius: 0.3rem;
@@ -110,9 +110,9 @@ img {
 }
 
 .btn:hover {
-    color: var(--primary);
+    color: var(--red);
     background-color: transparent;
-    border-color: var(--primary);
+    border-color: red;
 }
 
 .border_bottom {
@@ -235,7 +235,7 @@ header::before {
 }
 
 .header_right .typing {
-    color: var(--primary);
+    color: red;
     font-weight: 500;
 }
 
@@ -284,6 +284,10 @@ header::before {
 
 .about_container .about-text .text span {
     color: var(--primary);
+    font-weight: 500;
+}
+.about_container .about-text .text .typing-2 {
+    color: red;
     font-weight: 500;
 }
 
@@ -782,15 +786,6 @@ footer ul li a:hover {
 
     .gallery a{
         width: 25rem;
-    }
-
-    .courses_container{
-        grid-template-columns: 1fr;
-        width: 80%;
-    }
-
-    .courses_container .course{
-        margin-bottom: 1rem;
     }
 
     .footer_container{
